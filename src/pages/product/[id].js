@@ -1,4 +1,4 @@
-import { product } from "../product";
+import { product } from "../../data/product";
 import { useRouter } from "next/router";
 import ProductCard from "../components/productcard";
 import { useState } from "react";

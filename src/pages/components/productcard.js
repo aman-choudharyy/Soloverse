@@ -1,8 +1,10 @@
 
 
   import Link from "next/link";
+  
 
   export default function ProductCard({ product }) {
+    if (!product) return null; 
   
     return (
       <div className="product-card">      
